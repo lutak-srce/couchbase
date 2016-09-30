@@ -65,7 +65,7 @@ class couchbase (
   $admin_username               = 'secret',
   $admin_password               = 'secret',
   $cluster_ip                   = '',
-  $dependency_class             = $::couchbase::dependency_class,
+  $dependency_class             = $::couchbase::params::dependency_class,
   $my_class                     = undef,
   $noops                        = undef,
   ) inherits couchbase::params {

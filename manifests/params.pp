@@ -9,7 +9,7 @@ class couchbase::params {
   $version          = undef
   $status           = 'enabled'
   $autorestart      = true
-  $dependency_class = 'couchbase::dependency'
+  $dependency_class = '::couchbase::dependency'
   $my_class         = undef
 
   # install package depending on major version
